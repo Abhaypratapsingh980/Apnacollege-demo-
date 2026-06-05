@@ -1,2 +1,3 @@
-# Apnacollege-demo-
-This is my first reposetery
+# Apnacollege-demo
+This is my first repository 
+Author =Abhay pratp singh
