@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Form</title>
+</head>
+
+<body style="font-family: Arial, sans-serif; background-color: #516e27; padding: 20px;">
+    <main>
+        <p style="color: rgb(113, 109, 199);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque. Voluptas, doloremque.
+            Voluptas,
+            doloremque. Voluptas, doloremque. Voluptas, doloremque. Voluptas, doloremque. Voluptas, doloremque.
+            Voluptas,
+            doloremque.</p>
+
+        <form>
+            <div>
+                <label for ="name">Name:</label>
+                <input type="text" id="name" placeholder="Abhay Pratap Singh">
+            </div>
+
+            <div class="field-row">
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="000000000">
+            </div>
+
+            <div>
+                <label>Gender</label>
+                <div>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                </div>
+            </div>
+
+            <div class="field-row">
+                <label>Hobbies</label>
+                <div class="inline-group">
+                    <input type="checkbox" name="hobbies" id="reading" value="reading">
+                    <label for="reading">Reading</label>
+                    <input type="checkbox" name="hobbies" id="sports" value="sports">
+                    <label for="sports">Sports</label>
+                    <input type="checkbox" name="hobbies" id="music" value="music">
+                    <label for="music">Music</label>
+                </div>
+            </div>
+
+            <div class="field-row">
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="india">India</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="canada">Canada</option>
+                </select>
+            </div>
+
+            <div class="field-row">
+                <label for="car-brand">Cars</label>
+                <select id="car-brand" name="car-brand">
+                    <optgroup label="Toyota">
+                        <option value="innova">Innova</option>
+                        <option value="corolla">Corolla</option>
+                        <option value="fortuner">Fortuner</option>
+                    </optgroup>
+                    <optgroup label="Honda">
+                        <option value="city">City</option>
+                        <option value="civic">Civic</option>
+                        <option value="accord">Accord</option>
+                    </optgroup>
+                </select>
+            </div>
+
+            <div class="field-row">
+                <label for="car">Car (datalist)</label>
+                <input list="car" id="car" name="car">
+                <datalist id="car">
+                    <option value="Toyota Innova"></option>
+                    <option value="Toyota Corolla"></option>
+                    <option value="Toyota Fortuner"></option>
+                    <option value="Honda City"></option>
+                    <option value="Honda Civic"></option>
+                    <option value="Honda Accord"></option>
+                </datalist>
+                <datalist id="car">
+                    <option value="Toyota Innova"></option>
+                    <option value="Toyota Corolla"></option>
+                    <option value="Toyota Fortuner"></option>
+                    <option value="Honda City"></option>
+                    <option value="Honda Civic"></option>
+                    <option value="Honda Accord"></option>
+
+                </datalist>
+            </div>
+
+            <div class="field-row">
+                <label for="age">Age:</label>
+                <input type="number" id="age" min="0" max="30">
+            </div>
+
+            <div class="field-row">
+                <label for="colour">Colour:</label>
+                <input type="color" id="colour">
+            </div>
+
+            <div class="field-row">
+                <label for="time">Time:</label>
+                <input type="time" id="time">
+            </div>
+
+            <div class="field-row">
+                <label for="date">Date:</label>
+                <input type="date" id="date">
+            </div>
+
+            <div class="field-row">
+                <label for="datetime">Date &amp; Time:</label>
+                <input type="datetime-local" id="datetime">
+            </div>
+
+            <div class="field-row">
+                <label for="file">File</label>
+                <input type="file" id="file">
+            </div>
+
+            <div>
+
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            
+
+            </div>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
